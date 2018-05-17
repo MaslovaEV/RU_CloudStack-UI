@@ -31,3 +31,8 @@ CloudStack-UI был создан, чтобы облегчить взаимод�
    CSUI-Accounts
    CSUI-Settings
    CSUI-Logout
+
+
+См. проект на `GitHub <https://github.com/bwsw/cloudstack-ui>`_
+
+Присоединяйся к CloudStack-UI `LinkedIn Group <www.linkedin.com/groups/13540203>`_
