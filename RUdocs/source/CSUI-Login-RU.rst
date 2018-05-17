@@ -25,7 +25,7 @@ CloudStack-UI создан для более легкого и удобного 
 
    3) Еще одним способом авторизации является вход через URL с указанием в ней домена в следующем формате: ``http://<ip-address>/login?domain=<domain>``.  Значение домена из URL будет автоматически задано в форме авторизации. Примечание: значение домена из URL переопределяет  значение домен, заданного администратором в конфигурационном файле (см. `Configurations page` (link here).
 
-.. figure:: _static/LoginScreen.png
+.. figure:: _static/RU_LoginScreen.png
 
 Нажмите "Войти" для перехода к CloudStack. Вы увидите первый раздел - "Виртуальные Машины". 
 
@@ -48,12 +48,12 @@ CloudStack-UI создан для более легкого и удобного 
 
 Пользователь может видеть статистику использования ресурсов только для своего пользователя.
 
-.. figure:: _static/VMs_ResourceUsage_User.png
+.. figure:: _static/RU_VMs_ResourceUsage_User.png
    :scale: 80%
    
 Администратор Домена может видеть ресурсы для своего аккаунта и для всего домена. 
 
-.. figure:: _static/VMs_ResourceUsage.png
+.. figure:: _static/RU_VMs_ResourceUsage.png
    :scale: 80%
    
 Оповещения о недавних действиях
@@ -61,5 +61,19 @@ CloudStack-UI создан для более легкого и удобного 
 
 В верхнем правом углу экрана можно просматривать список недавних действий, нажав кнопку |bell icon|. Этот список сообщает Вам о последних операциях в системе. Вы можете очистить список после его просмотра, удалив каждое уведомление один за другим или нажав "ОЧИСТИТЬ" в конце списка.
 
-.. figure:: _static/VMs_Alerts1.png
+.. figure:: _static/RU_VMs_Alerts1.png
    :scale: 80%
+   
+.. |bell icon| image:: _static/bell_icon.png
+.. |refresh icon| image:: _static/refresh_icon.png
+.. |view icon| image:: _static/view_list_icon.png
+.. |view box icon| image:: _static/box_icon.png
+.. |view| image:: _static/view_icon.png
+.. |actions icon| image:: _static/actions_icon.png
+.. |edit icon| image:: _static/edit_icon.png
+.. |box icon| image:: _static/box_icon.png
+.. |create icon| image:: _static/create_icon.png
+.. |copy icon| image:: _static/copy_icon.png
+.. |color picker| image:: _static/color-picker_icon.png
+.. |adv icon| image:: _static/adv_icon.png
+
