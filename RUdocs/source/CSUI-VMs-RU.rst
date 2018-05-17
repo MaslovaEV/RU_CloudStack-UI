@@ -179,7 +179,7 @@
 
 Если выбранное дисковое предложение имеет настраиваемый размер диска (устанавливается Администратором), размер диска можно изменить, двигая "бегунок" до нужного значения.
 
-.. figure:: _static/VMs_Create_DO_ChangeSize.png
+.. figure:: _static/RU_VMs_Create_DO_ChangeSize.png
    :scale: 80%
 
 Больше информации о дисковом предложении можно найти в `официальной документации <http://docs.cloudstack.apache.org/projects/cloudstack-administration/en/latest/service_offerings.html?highlight=Disk%20offering#compute-and-disk-service-offerings>`_.
