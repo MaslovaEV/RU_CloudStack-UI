@@ -3,36 +3,29 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to CloudStack-UI!
-=======================================
+.. _CS_User_Guide_RU:
 
-.. figure:: _static/cloudstack_logo.png
+Руководство пользователя CloudStack-UI 
+============================================
+.. Contents::
 
-CloudStack-UI is a project which purpose is to provide an easy-to-use, light, and user friendly frontend interface for the Apache CloudStack virtualization management system. 
+CloudStack-UI был создан, чтобы облегчить взаимодействие пользователя с облачной инфраструктурой - просмотр и использование облачных ресурсов, включая виртуальные машины, шаблоны и ISO, диски и их снимки, группы безопасности и IP адреса. 
 
-Apache CloudStack is a great product which is widely used. But its frontend is developed for administrators (from our point of view), not for cloud end users. Some of the interactions are not straightforward and unnatural to an average user and require quite a long time to adapt. Other reasons to develop the UI are connected with lack of functions like virtual machine statistics & charting, sophisticated resource accounting, and application management. 
+Данная документация дает четкое описание процесса работы с интерфейсом. Он достаточно простой и понятный, но мы рекомендуем начать работу с изучения представленной документации, чтобы лучше понять основные аспекты проекта. 
 
-That's what we are trying to add to Cloudstack-UI. The work is still in progress. But for now we have already covered lots of features that make CloudStack more good-looking and intuitive.
+Документация имеет следующую структуру: 
 
-Project on `GitHub <https://github.com/bwsw/cloudstack-ui>`_
-
-Join CloudStack-UI `LinkedIn Group <www.linkedin.com/groups/13540203>`_
-
-Contents:
 
 .. toctree::
    :maxdepth: 2
 
-   CS-UI_Overview
-   CS-UI_Guide
-   Glossary
-   
- 
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
-
+   CSUI-Start
+   CSUI-VirtualMachines
+   CSUI-Storage
+   CSUI-Images
+   CSUI-Firewall
+   CSUI-ActivityLog
+   CSUI-SSHKeys
+   CSUI-Accounts
+   CSUI-Settings
+   CSUI-Logout
