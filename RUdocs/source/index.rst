@@ -21,16 +21,8 @@ CloudStack-UI был создан, чтобы облегчить взаимод�
 .. toctree::
    :maxdepth: 2
 
-   CSUI-Login-RU
-   CSUI-VMs-RU
-   CSUI-Storage-RU
-   CSUI-Images
-   CSUI-Firewall
-   CSUI-ActivityLog
-   CSUI-SSHKeys
-   CSUI-Accounts
-   CSUI-Settings
-   CSUI-Logout
+   CSUI-Overview-RU
+   CSUI-Guide-RU
 
 
 См. проект на `GitHub <https://github.com/bwsw/cloudstack-ui>`_
