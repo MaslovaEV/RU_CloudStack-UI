@@ -167,7 +167,7 @@
 
 - **Вернуть диск к снимку** - Позволяет вернуть диск обратно к состоянию снимка. 
 
-Подствердите свое действие в диалоговом окне. In the dialogue window confirm your action. Please, note, the virtual machine the volume is assigned to will be rebooted.
+Подствердите свое действие в диалоговом окне. Обратите внимание, что виртуальная машина, к которой относится диск, будет переустановлена. 
 
 .. figure:: _static/RU_Storage_SnapshotActions_Revert.png
 
