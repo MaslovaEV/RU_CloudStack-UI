@@ -12,11 +12,11 @@
 
 Существующие диски представлены в разделе в виде списка. Пользователю доступны только его диски.
 
-.. figure:: _static/Storage_List.png
+.. figure:: _static/RU_Storage_List.png
 
 Доменный Администратор видит диски всех пользователей в домене.
 
-.. figure:: _static/Storage_List_Admin2.png
+.. figure:: _static/RU_Storage_List_Admin2.png
 
 Представление дисков можно изменить с режима списка на режим карточек. Выберите удобный режим представления, нажав переключатель |view icon|/|box icon| в правом верхнем углу.
 
@@ -28,15 +28,15 @@
 
 Как и во всех разделах, в разделе «Хранилище» список дисков можно фильтровать по зонам и/или по типам. Также, можно искать диски по названию или его части.
 
-.. figure:: _static/Storage_FilterAndSearch1.png
+.. figure:: _static/RU_Storage_FilterAndSearch1.png
 
 Диски можно группировать по зонам и/или типам, как на изображении ниже:
 
-.. figure:: _static/Storage_Grouping.png
+.. figure:: _static/RU_Storage_Grouping.png
 
 Доменному Администратору доступны диски всех аккаунтов в домене. Он может фильтровать список дисков по аккаунтам.
 
-.. figure:: _static/Storage_FilterAndSearch_Admin.png
+.. figure:: _static/RU_Storage_FilterAndSearch_Admin.png
 
 Для каждого диска в списке представлена следующая информация:
 
@@ -57,8 +57,7 @@
 
 Нажав кнопку создания, Вы увидите предупреждение: система попросит Вас подтвердить свое желание создать диск. Нажмите "Да", если Вы действительно хотите создать дополнительный диск:
 
-.. figure:: _static/AdditionalDiskNotification.png
-   :scale: 70%
+.. figure:: _static/RU_AdditionalDiskNotification.png
 
 В появившейся форме заполните поля:
 
@@ -75,21 +74,19 @@
 - Скорость чтения (IO/s);
 - Скорость записи (IO/s).
 
-Администратор может расширить список параметров через конфигурационный файл <https://github.com/bwsw/cloudstack-ui/blob/master/config-guide.md#disk-offering-parameters>`_.
+Администратор может расширить список параметров через `конфигурационный файл <https://github.com/bwsw/cloudstack-ui/blob/master/config-guide.md#disk-offering-parameters>`_.
 
 Выберите дисковое предложение в списке и нажмите "ВЫБРАТЬ".
 
-.. figure:: _static/Storage_Create_Select.png
-:scale: 60%
+.. figure:: _static/RU_Storage_Create_Select.png
 
 Если выбранное дисковое предложение имеет настраиваемый размер диска (устанавливается Администратором), размер диска можно изменить, двигая "бегунок" до нужного значения.
 
-.. figure:: _static/Storage_Create_ResizeDisk.png
-   :scale: 60%
+.. figure:: _static/RU_Storage_Create_ResizeDisk.png
 
 Нажмите "СОЗДАТЬ", чтобы сохранить настройки и создать новый диск. Созданный диск появится в списке дисков.
 
-.. figure:: _static/Storage_Created1.png
+.. figure:: _static/RU_Storage_Created1.png
 
 Нажмите "ОТМЕНИТЬ" для отмены создания диска.
 
@@ -100,7 +97,7 @@
 
 Нажатием на диск в списке можно открыть информационную панель справа.
 
-.. figure:: _static/Storage_Info2.png
+.. figure:: _static/RU_Storage_Info2.png
 
 В ней — две вкладки:
 
@@ -109,13 +106,13 @@
 - Общая информация — Размер, дата и время создания диска, тип хранилища (общее, локальное).
 - Описание — Позволяет добавить краткое описание к диску. Нажмите на блок «Описание» и введите краткое описание в текстовое поле.
 
-.. figure:: _static/Storage_Description1.png
+.. figure:: _static/RU_Storage_Description1.png
 
 Нажмите " Сохранить", чтобы сохранить описание. Описание сохраняется в `тэги диска <https://github.com/bwsw/cloudstack-ui/wiki/Tags>`_.
 
 Описание можно редактировать, нажав "Редактировать" |edit icon| в блоке описания.
 
-.. figure:: _static/Storage_DescriptionEdit1.png
+.. figure:: _static/RU_Storage_DescriptionEdit1.png
 
 - Дисковое предложение — Содержит информацию о дисковом предложении, на основе которого был создан диск.
 
@@ -128,8 +125,7 @@
 
 Нажмите "Создать" и созданный снимок появится в списке существующих снимков диска.
 
-.. figure:: _static/Storage_CreateSnapshot1.png
-:scale: 70%
+.. figure:: _static/RU_Storage_CreateSnapshot1.png
 
 Каждый снимок сохраняется в отдельную карточку. В ней отображается название и время снимка. 
 
@@ -159,14 +155,13 @@
      
 Как только все поля заполнены, нажмите "Создать", чтобы создать новый шаблон.
 
-.. figure:: _static/Storage_CreateTemplate1.png
-:scale: 70%
+.. figure:: _static/RU_Storage_CreateTemplate1.png
 
 - **Создать диск** - позволяет создать диск из снимка.
 
 Введите название нового диска в поле "Название" в открывшемся окне. Нажмите "Создать" для сохранения нового диска. 
 
-.. figure:: _static/Storage_SnapshotActions_CreateVolume.png
+.. figure:: _static/RU_Storage_SnapshotActions_CreateVolume.png
 
 Нажмите “Отменить” для отмены создания диска.
 
@@ -174,8 +169,7 @@
 
 Подствердите свое действие в диалоговом окне. In the dialogue window confirm your action. Please, note, the virtual machine the volume is assigned to will be rebooted.
 
-.. figure:: _static/Storage_SnapshotActions_Revert.png
-   :scale: 70%
+.. figure:: _static/RU_Storage_SnapshotActions_Revert.png
 
 - **Удалить** - позволяет удалить снимок. Выберите "Удалить" в списке действий и подтвердите свое действие в диалоговом окне. Снимок будет удален. Нажмите "Отменить" для отмены удаления снимка.
 
@@ -237,8 +231,7 @@
 
 Нажмите "+", чтобы сохранить расписание.  Можно создать несколько графиков создания снимков, но не более одного для каждого типа расписания  (почасового, ежедневного, еженедельного, помесячного).
 
-.. figure:: _static/Storage_ScheduleSnapshotting1.png
-:scale: 70%
+.. figure:: _static/RU_Storage_ScheduleSnapshotting1.png
 
 **Изменить размер диска**
 
@@ -248,7 +241,7 @@
 
 В появившемся окне установите новый размер, двигая «бегунок». Кликните "Изменить размер" для сохранения изменений.
 
-.. figure:: _static/Storage_ResizeDisk2.png
+.. figure:: _static/RU_Storage_ResizeDisk2.png
 
 Нажмите "Отменить", чтобы сбросить все изменения.
 
@@ -258,7 +251,7 @@
 
 Нажмите "Прикрепить" в списке действий и в появившемся окне выберите машину, к которой следует прикрепить диск. Нажмите "Прикрепить" в диалоговом окне.
 
-.. figure:: _static/Storage_AttachDisk1.png
+.. figure:: _static/RU_Storage_AttachDisk1.png
 
 Прикрепленный диск можно открепить. Нажмите "Открепить" в списке действий и подтвердите свое действие в диалоговом окне. Диск данным будет откреплен от машины. 
 
