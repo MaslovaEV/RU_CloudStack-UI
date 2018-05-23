@@ -18,6 +18,7 @@ CloudStack-UI был создан, чтобы облегчить взаимод�
    CSUI-VMs-RU
    CSUI-Storage-RU
    CSUI-Images-RU
+   CSUI-Snapshots-RU
    CSUI-Firewall-RU
    CSUI-ActivityLog
    CSUI-SSHKeys
