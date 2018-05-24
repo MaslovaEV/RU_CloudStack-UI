@@ -6,7 +6,7 @@
 
 В разделе *Снимки* содержится информация о снимках, существующих в системе. 
 
-.. figure:: _static/RU_Snapshots.png
+.. figure:: _static/RU_Snapshots1.png
 
 Список снимков
 -------------------
@@ -17,7 +17,7 @@
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Инструмент фильтрации снимков доступен вверху списка. 
 
-.. figure:: _static/RU_Snapshots_Filtering.png
+.. figure:: _static/RU_Snapshots_Filtering1.png
 
 Фильтровать список можно по следующим параметрам:
 
@@ -44,7 +44,7 @@
 -----------------------------------
 В информационной панели отображается информация о снимке. Панель открывается справа кликном на снимок в списке. 
 
-.. figure:: _static/RU_Snapshots_Details.png
+.. figure:: _static/RU_Snapshots_Details1.png
 
 В информационной панели отображаются следующие данные:
 
@@ -84,7 +84,7 @@
 
 Как только все поля заполнены, нажмите «СОЗДАТЬ», чтобы создать новый шаблон.
 
-.. figure:: _static/RU_Snapshots_CreateTemplate1.png
+.. figure:: _static/RU_Snapshots_CreateTemplate2.png
 
 Чтобы отменить создание шаблона, нажмите "ОТМЕНИТЬ".
 
@@ -94,7 +94,7 @@
 
 В открывшемся окне введите название диска в поле "Название". Нажмите "СОЗДАТЬ", чтобы сохранить новый диск. 
 
-.. figure:: _static/RU_Snapshots_Actions_CreateVolume.png
+.. figure:: _static/RU_Snapshots_Actions_CreateVolume1.png
 
 Чтобы отменить создание диска, нажмите "ОТМЕНИТЬ".
 
@@ -104,7 +104,7 @@
 
 В диалоговом окне подтвердите ваше действие. Обратите внимание, что виртуальная машина, к которой относится диск, будет переустановлена. 
 
-.. figure:: _static/RU_Snapshots_Actions_Revert.png
+.. figure:: _static/RU_Snapshots_Actions_Revert1.png
 
 **Удалить**
 
@@ -112,7 +112,7 @@
 
 Нажмите "Удалить" в списке действия и подтвердите свое действие в появившемся окне. Снимок будет удален.  
 
-.. figure:: _static/RU_Snapshots_Actions_Delete.png
+.. figure:: _static/RU_Snapshots_Actions_Delete1.png
 
 Чтобы отменить удаление снимка, нажмите "ОТМЕНИТЬ".
 
