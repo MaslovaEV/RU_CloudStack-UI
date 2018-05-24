@@ -1,3 +1,5 @@
+.. _Snapchots_RU:
+
 Снимки
 =============
 .. Contents::
@@ -59,7 +61,7 @@
 - Вернуть диск к состоянию снимка;
 - Удалить. 
 
-.. figure:: _static/RU_Snapshots_Actions.png
+.. figure:: _static/RU_Snapshots_Actions1.png
 
 Ниже каждое действие описано подробнее.
 
