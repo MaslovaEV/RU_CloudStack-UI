@@ -22,7 +22,7 @@ CloudStack-UI был создан, чтобы облегчить взаимод�
    CSUI-Firewall-RU
    CSUI-Events-RU
    CSUI-SSHKeys
-   CSUI-Accounts
+   CSUI-Accounts-RU
    CSUI-Settings-RU
    CSUI-Logout
 
