@@ -7,17 +7,18 @@
 
 ::
 
-"defaultDomain": "domain"
+ "defaultDomain": "domain"
 
 Шаблоны группы безопасности
 -------------------------------
+
 Позволяет создать предзаданные шаблоны для групп безопасности. Можно определить собственные группы безопасности, которые будут доступны по умолчанию для всех пользователей. 
 
 Формат:
 
 ::
 
-"securityGroupTemplates": [
+ "securityGroupTemplates": [
     {
       "id": "templateTCP",
       "name": "TCP Permit All",
@@ -43,11 +44,11 @@
       ]
     },
     {...}
-]
+ ]
 
 Параметры:
 
-- id: уникальный идентификатор;
+- id - уникальный идентификатор;
 - имя;
 - описание;
 - предвыбранные (true или false) - указывает, будут ли правила из данного шаблона автоматически применяться к новым машинам;
@@ -79,14 +80,14 @@
 
 ::
 
-"blue-red"
-"indigo-pink"
+ "blue-red"
+ "indigo-pink"
 
 По умолчанию спользуется тема blue-red:
 
 ::
 
-"defaultThemeName": "blue-red"
+ "defaultThemeName": "blue-red"
 
 Доступность предложений
 -------------------------
@@ -94,13 +95,13 @@
 
 ::
 
-offeringAvailability: {
+ offeringAvailability: {
   "filterOfferings": true,
     "zoneId": {
       "diskOfferings": ["offeringId1", "offeringId2"],
       "serviceOfferings": ["offeringId3", "offeringId4"]
     }
-}
+ }
 
 Если ``filterOfferings = false``, все предложения доступны для всех зон.
 
@@ -110,7 +111,7 @@ offeringAvailability: {
 
 ::
 
-"customOfferingRestrictions": {
+ "customOfferingRestrictions": {
   "offeringId1": {
     "cpuNumber": {
       "min": number,
@@ -125,10 +126,7 @@ offeringAvailability: {
       "max": memory_in_mb
     }
   }
-}
-
-
-
+ }
 
 Любой их этих параметров можно оставить неопределенным. Тогда в качестве минимального и максимального значений будут использоваться 0 и бесконечность соответственно.
 
@@ -139,7 +137,7 @@ offeringAvailability: {
 
 ::
 
-"serviceOfferingClasses": [
+ "serviceOfferingClasses": [
   {
     "id": "class_id",
     "name": {
@@ -155,7 +153,7 @@ offeringAvailability: {
       "so-id2"
     ]
    }
-]
+ ]
 
 Для каждого класса необходимо указать уникальный id, название, описание и список id вычислительных предложений, относящихся к данному классу. Название и описание необходимо локализовать в соответствии с использоваемыми языками.
 
@@ -170,7 +168,7 @@ offeringAvailability: {
 
 ::
 
-"sessionTimeout": 30
+ "sessionTimeout": 30
 
 Изменение порядка разделов в меню
 -------------------------------------
@@ -178,7 +176,7 @@ offeringAvailability: {
 
 ::
 
-"allowReorderingSidebar": false
+ "allowReorderingSidebar": false
 
 Параметры дисковых предложений
 -------------------------------
@@ -188,7 +186,7 @@ offeringAvailability: {
 
 ::
 
-"diskOfferingParameters": [
+ "diskOfferingParameters": [
   "displaytext",
   "disksize",
   "created"
@@ -197,7 +195,7 @@ offeringAvailability: {
   "iscustomized",
   "miniops"
   "maxiops"
-]
+ ]
 
 Группы шаблонов
 -------------------
@@ -207,14 +205,14 @@ offeringAvailability: {
 
 ::
 
-"templateGroups": [
+ "templateGroups": [
   {
     "id": "id-234", //unique key
     "translations": {
       "ru": "Имя Темплейта", // russian translation
       "en": "Template Name" //english translation
   }
-]
+ ]
 
 Предзаданные параметры вычислительных предложений
 -------------------------------------------------------
@@ -224,7 +222,7 @@ offeringAvailability: {
 
 ::
 
-"defaultServiceOfferingConfig": {
+ "defaultServiceOfferingConfig": {
    "031a55bb-5d6b-4336-ab93-d5dead28a887": {
 	   "offering": "3890f81e-62aa-4a50-971a-f066223d623d",
 	   "customOfferingParams": {
@@ -233,7 +231,7 @@ offeringAvailability: {
 	      "memory": 1024
 	   }
 	}
-}
+ }
 
 Интервал обновления сессии
 ------------------------------- 
@@ -242,7 +240,7 @@ offeringAvailability: {
 
 ::
 
-"sessionRefreshInterval": 60,
+ "sessionRefreshInterval": 60,
 
 Политика совместимости предложений
 ---------------------------------------
@@ -250,10 +248,10 @@ offeringAvailability: {
 
 ::
 
-"offeringCompatibilityPolicy": {
+ "offeringCompatibilityPolicy": {
  "offeringChangePolicy": "exactly-match",
  "offeringChangePolicyIgnoreTags": ["t1"]
-}
+ }
 
 Включение тэгов аккаунта
 ------------------------------
@@ -262,7 +260,7 @@ offeringAvailability: {
 
 ::
 
-"accountTagsEnabled": false
+ "accountTagsEnabled": false
 
 
 Порядок разделов меню
@@ -273,7 +271,7 @@ offeringAvailability: {
 
 ::
 
-"configureSidebar": [
+ "configureSidebar": [
   "vms",
   "volumes",
   "templates",
@@ -282,7 +280,7 @@ offeringAvailability: {
   "ssh",
   "accounts",
  "settings"
-]
+ ]
 
 Расширения
 ------------------
