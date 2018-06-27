@@ -21,6 +21,8 @@ CloudStack-UI был создан, чтобы облегчить взаимод�
 
    CSUI_Overview-RU
    CSUI_Guide-RU
+   CS-UI_Pulse
+   CS-UI_Webshell
 
 
 См. проект на `GitHub <https://github.com/bwsw/cloudstack-ui>`_
