@@ -27,27 +27,29 @@ Pulse позволяет пользователям Apache CloudStack контр
 Для работы с плагином Pulse убедитесь, что у вас есть `cs-pulse-server <https://github.com/bwsw/cs-pulse-server>`_ и `cs-pulse-sensor <https://github.com/bwsw/cs-pulse-sensor>`_.
 
 Для подключения плагина Pulse необходимо:
+
 1. Задать настройки для Pulse в ``config.json``.
-2. Запустить контейнер docker, в котором указан корректный адрес ``cs-pulse-server``.
+
+#. Запустить контейнер docker, в котором указан корректный адрес ``cs-pulse-server``.
 
 Конфигурирование Pulse
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Включите ``pulse`` в блоке ``extentions`` в файле конфигураций ``config.json``.
+Включите ``pulse`` в блоке ``extentions`` в файле конфигураций ``config.json``::
 
-    "extensions": {
-         ...,
-         "pulse": true
-       }
+ "extensions": {
+     ...,
+     "pulse": true
+ }
   
 Запуск ``cloudstack-ui`` из контейнера
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 ::
 
-docker run -d -p 80:80 --name cloudstack-ui \
-           ...
-           -e PULSE_PLUGIN_ENDPOINT=http://url/to/cs-pulse-server \
-           ...
-           -v /path/to/config.json:/static/config/config.json \
-           bwsw/cloudstack-ui
+  docker run -d -p 80:80 --name cloudstack-ui \
+             ...
+             -e PULSE_PLUGIN_ENDPOINT=http://url/to/cs-pulse-server \
+             ...
+             -v /path/to/config.json:/static/config/config.json \
+             bwsw/cloudstack-ui
