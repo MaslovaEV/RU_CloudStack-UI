@@ -263,6 +263,8 @@
  "offeringChangePolicyIgnoreTags": ["t1"]
  }
 
+.. _AccountTags_RU:
+
 Включение тэгов аккаунта
 ------------------------------
 
