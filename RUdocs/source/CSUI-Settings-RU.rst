@@ -41,7 +41,7 @@
 
 Максимальное разрешенное значение - 300 минут. Обратите внимание, что более длительный период сессии снижает безопасность аккаунта. 
 
-Лимит времени сеанса можно установить в конфигурационном файле. См. подробнее в `руководстве по конфигурациям <https://github.com/bwsw/cloudstack-ui/blob/master/config-guide.md#session-timeout>`_.
+Лимит времени сеанса можно установить в конфигурационном файле. См. подробнее в руководстве по конфигурациям :ref:`SessionTimeout`.
 
 .. _Settings_VMPass:
 
@@ -118,7 +118,7 @@
 
 .. figure:: _static/RU_Settings_Theme.png
 
-Цвет темы можно установить в конфигурационном файле JSON. См.подробнее в `руководстве по конфигурациям <https://github.com/bwsw/cloudstack-ui/blob/master/config-guide.md#default-theme-name>`_. 
+Цвет темы можно установить в конфигурационном файле JSON. См.подробнее в руководстве по конфигурациям :ref:`ThemeName`. 
 
 .. |bell icon| image:: _static/bell_icon.png
 .. |refresh icon| image:: _static/refresh_icon.png
