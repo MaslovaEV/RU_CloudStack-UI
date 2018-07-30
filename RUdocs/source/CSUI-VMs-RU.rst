@@ -544,7 +544,7 @@
 
 Нажмите "Удалить" в списке действий и подтвердите свое действие в диалоговом окне. 
 
-.. figure:: _static/RU_VMs_Details_Storage_DeleteDisk.png
+.. figure:: _static/RU_VMs_Details_Storage_Delete.png
    
 Дополнительный диск будет удален из системы в тот же момент.
 
