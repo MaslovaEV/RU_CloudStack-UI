@@ -711,7 +711,7 @@ ISO можно отсоединить от ВМ, нажав "Открепить"
 
 - через HTTP, если у ВМ есть тег ``csui.vm.auth-mode`` со значением HTTP.  Подробнее о доступе к ВМ через HTTP см. на `странице <https://github.com/bwsw/cloudstack-ui/wiki/Tags>`_.
 
-.. figure:: _static/AccessVM_OpenURL2.png
+.. figure:: _static/RU_AccessVM_OpenURL2.png
 
 Выберите удобный способ и задайте нужные настройки.
 
