@@ -1,4 +1,4 @@
-.. _WebShell:
+.. _WebShell_RU:
 
 Плагин WebShell
 =================
