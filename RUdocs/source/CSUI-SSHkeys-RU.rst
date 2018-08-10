@@ -7,7 +7,7 @@
 
 В разделе *Ключи SSH* можно создавать и управлять ключами SSH. 
 
-CloudStack поддерживает использование ключей SSH в качестве дополнительной защиты при доступе к облачной инфраструктуре, помимо имени пользователя и пароля. См.подробнее в `официальной документации <http://docs.cloudstack.apache.org/projects/cloudstack-administration/en/latest/virtual_machines.html?highlight=keys#using-ssh-keys-for-authentication>`_.
+CloudStack поддерживает использование ключей SSH в качестве дополнительной защиты при доступе к облачной инфраструктуре, помимо имени пользователя и пароля. См. подробнее в `официальной документации <http://docs.cloudstack.apache.org/projects/cloudstack-administration/en/latest/virtual_machines.html?highlight=keys#using-ssh-keys-for-authentication>`_.
 
 CloudStack-UI позволяет управлять ключами SSH в отдельном разделе, что значительно удобнее для пользователя. 
 
