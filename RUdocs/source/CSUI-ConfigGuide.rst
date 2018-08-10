@@ -18,7 +18,7 @@
 
  "defaultDomain": "domain"
  
- .. _ThemeName_RU:
+.. _ThemeName_RU:
 
 Название цветовой темы
 """""""""""""""""""""""""""""
@@ -79,7 +79,7 @@
 
  "sessionTimeout": 30
  
- .. _SessionRefresh_RU:
+.. _SessionRefresh_RU:
 
 Интервал обновления сессии
 """""""""""""""""""""""""""""""""
