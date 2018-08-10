@@ -11,6 +11,8 @@
 
  "defaultDomain": "domain"
 
+.. _SecurityGrTemplate:
+
 Шаблоны группы безопасности
 -------------------------------
 
