@@ -20,11 +20,11 @@
 
 Режим списка можно изменить на "карточки":
 
-.. figure:: _static/VMs_List.png
+.. figure:: _static/RU_VMs_List.png
 
 Или наоборот, переключите карточки на список:
 
-.. figure:: _static/VMs_Boxes.png
+.. figure:: _static/RU_VMs_BoxView.png
 
 В списке существующих виртуальных машин для каждой машины отображается следующая информация: 
 
