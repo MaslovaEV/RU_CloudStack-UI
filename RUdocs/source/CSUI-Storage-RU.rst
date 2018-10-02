@@ -122,7 +122,7 @@
 
 .. figure:: _static/RU_Storage_Description1.png
 
-Нажмите "Сохранить", чтобы сохранить описание. Описание сохраняется в `тэги диска <https://github.com/bwsw/cloudstack-ui/wiki/Tags>`_.
+Нажмите "Сохранить", чтобы сохранить описание. Описание сохраняется в `теги диска <https://github.com/bwsw/cloudstack-ui/wiki/Tags>`_.
 
 Описание можно редактировать, нажав "Редактировать" |edit icon| в блоке описания.
 
