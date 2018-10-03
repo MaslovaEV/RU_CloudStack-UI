@@ -6,7 +6,7 @@ CloudStack-UI создан для более легкого и удобного 
 
 Информация, представленная в данном документе, поможет начать работу с CloudStack-UI. Если прежде вы не работали с CloudStack, рекомендуем начать с установки системы CloudStack. Для этого следуйте инструкциям в `официальной документации <http://docs.cloudstack.apache.org/en/4.11.1.0/installguide/index.html>`_.
 
-Затем установите CloudStack-UI (см. `инструкции по установке интерфейса <https://github.com/bwsw/cloudstack-ui#deployment>`_).
+Затем установите CloudStack-UI (см. `инструкции по установке интерфейса <https://github.com/bwsw/cloudstack-ui#getting-started-guide>`_).
 
 Вход в систему
 ------------------------
