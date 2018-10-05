@@ -20,7 +20,7 @@ CloudStack-UI был создан, чтобы облегчить взаимод�
    :maxdepth: 2
 
    CS-UI_Overview
-   CSUI_Guide
+   CS-UI_Guide
    CSUI-Pulse
    CSUI-Webshell
    CSUI-ConfigGuide
