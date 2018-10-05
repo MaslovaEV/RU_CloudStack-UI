@@ -19,8 +19,8 @@ CloudStack-UI был создан, чтобы облегчить взаимод�
 .. toctree::
    :maxdepth: 2
 
-   CSUI_Overview-RU
-   CSUI_Guide-RU
+   CSUI_Overview
+   CSUI_Guide
    CSUI-Pulse
    CSUI-Webshell
    CSUI-ConfigGuide
