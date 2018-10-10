@@ -44,7 +44,6 @@
 
 .. figure:: _static/RU_Accounts_Filtering.png
 
-
 Создание аккаунта
 ~~~~~~~~~~~~~~~~~~~~~~~
 
